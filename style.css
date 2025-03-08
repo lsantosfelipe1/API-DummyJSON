@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&family=Atma:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Atma', 'Aleo', sans-serif;
+    background-color: #F8F9FA;
+    margin: 0;
+    padding: 20px;
+    color: #212529;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    background: #FFFFFF;
+    padding: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    border-radius: 12px;
+    text-align: center;
+    border: 2px solid #E5E5E5;
+}
+
+h1, h2 {
+    font-weight: 600;
+    color: #212529;
+}
+
+button {
+    background: #C0A080;
+    font-family: 'Atma', 'Aleo', sans-serif;
+    color: #FFFFFF;
+    border: none;
+    padding: 12px 18px;
+    cursor: pointer;
+    border-radius: 6px;
+    margin: 15px 0;
+    transition: 0.3s;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #A68C72;
+}
+
+input {
+    font-family: 'Atma', 'Aleo', sans-serif;
+    width: 90%;
+    padding: 12px;
+    margin: 5px 0;
+    border: 1px solid #6C757D;
+    border-radius: 6px;
+    background: #FFFFFF;
+    font-size: 14px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.product {
+    background: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    padding: 15px;
+    border-radius: 10px;
+    width: 220px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    transition: transform 0.2s, box-shadow 0.3s;
+}
+
+.product img {
+    max-width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.product h3 {
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: 500;
+    overflow: hidden;
+    white-space: nowrap;
+    transition: all 0.3s ease;
+    color: #212529;
+}
+
+.product h3:hover {
+    white-space: normal;
+    overflow: visible;
+    height: auto;
+}
+
+.product p {
+    margin: 8px 0;
+    font-size: 14px;
+    color: #6C757D;
+    font-weight: 400;
+}
+
+.product button {
+    background: #1E3A5F;
+    padding: 8px;
+    width: 100%;
+    font-size: 14px;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
+.product button:hover {
+    background: #162A45;
+}
